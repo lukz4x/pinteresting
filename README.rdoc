@@ -1,4 +1,4 @@
 # One Month Rails
-[One Month rails](http://onemonthrails.com)
+[*One Month rails*](http://onemonthrails.com)
 
 By Lucas A
