@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for devise/heroku
   # Note to set this to actual host 
-  config.action_mailer.default_url_options = { host: => 'lucas-sampleapp.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
 end
