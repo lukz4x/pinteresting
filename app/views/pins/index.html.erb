@@ -28,5 +28,7 @@
       <% end %>
        </div>
   </div>
-  <div class="panel-footer"></div>
+  <div class="panel-footer right">
+    <%= will_paginate @pins, renderer: BootstrapPagination::Rails %>
+  </div>
 </div>

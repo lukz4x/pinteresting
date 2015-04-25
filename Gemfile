@@ -34,7 +34,9 @@ gem 'jquery-turbolinks'
 
 gem 'masonry-rails'
 
+gem 'will_paginate', '~> 3.0.5'
 
+gem 'will_paginate-bootstrap'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
