@@ -6,7 +6,7 @@
   </div>
   <div class="panel-body">
     <%= render 'pages/home' unless user_signed_in? %>
-    <div id="pins" class="transitions-enabled">
+    <div id="pins" class="transitions-enabled center">
      <% @pins.each do |pin| %>
         <div class="box panel panel-default center">
           <%= link_to image_tag(pin.image.url(:medium)), pin %>
